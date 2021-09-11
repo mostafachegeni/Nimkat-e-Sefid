@@ -1,6 +1,11 @@
 # Nimkat-e-Sefid
 
-This is a Telegram Bot that helps student who are about to participate in Iranian Nation-wide University Entrance Exam.
+This is a **Telegram Bot** that helps students who are about to participate in Iranian Nation-wide University Entrance Exam. 
+Through this Bot, every day a set of new exams are provided which the students are supposed to take. 
+
+This Bot is developed based on **Flask framework** in **Python**.
+A **SQLite database** is employed to store the history of taken exams for each student using which the scores of students are calculated. 
+In addition, using **FSM approach**, a defense machanism against **DoS Flooding Attack** is developed.
 
 
 <!-- a normal html comment -->
