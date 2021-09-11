@@ -5,6 +5,7 @@ This is a **Telegram bot** that assists students preparing to sit for the Irania
 This bot utilizes the **Flask framework** and the **Python** programming language. The scores of students are calculated by storing the history of exams taken by each student in an **SQLite database**. Additionally, the **FSM approach** is employed to develop a defense mechanism against **DoS Flooding Attacks**.
 
 ------------------------------
+**As a sample, here is how an exam should be taken:**
 
 <!-- a normal html comment -->
 <!--- 
