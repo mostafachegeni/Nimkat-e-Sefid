@@ -51,10 +51,10 @@ class MessageCounter(telepot.helper.ChatHandler):
         self._count += 1
         self.sender.sendMessage(self._count)
 
-secret = "nb117195-g9e2-4b05-bu2b-d11n5117wb72"
+secret = "ABCD"
 
-#bot = telepot.Bot('649688438:AAGqdFTnqYhYmLKA5KiX0fzQI6oUiZBrYYw')
-#bot = telepot.DelegatorBot('649688438:AAGqdFTnqYhYmLKA5KiX0fzQI6oUiZBrYYw', [
+#bot = telepot.Bot('ABCD')
+#bot = telepot.DelegatorBot('ABCD', [
 #    pave_event_space()(
 #        per_chat_id(), create_open, MessageCounter, timeout=10),
 #])
@@ -66,7 +66,7 @@ secret = "nb117195-g9e2-4b05-bu2b-d11n5117wb72"
 #        per_chat_id(), create_open, MessageCounter, timeout=10),
 #])
 
-bot = telepot.DelegatorBot('764893890:AAHzMzbLQ5VvTGeZzbZqdpRoJQ2JbF6rB_4', [
+bot = telepot.DelegatorBot('ABCD', [
     pave_event_space()(
         per_chat_id(), create_open, MessageCounter, timeout=10),
 ])
@@ -96,10 +96,10 @@ DOS_14 = 1  # callback_query                #Deactivated
 
 DOS_Threshold = 150
 
-chat_id_admin_1 = 122377423
-#chat_id_admin_2 = 591324836
-#chat_id_admin_3 = 92247028
-chat_id_admin_3 = 1111111
+chat_id_admin_1 = 123456789
+#chat_id_admin_2 = 123456789
+#chat_id_admin_3 = 12345678
+chat_id_admin_3 = 123456788
 
 arabi_matn          = "درک مطلب عربی"
 arabi_mani          = "تست ترجمه عربی"
